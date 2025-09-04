@@ -1,0 +1,39 @@
+#container{
+    height: 300px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.item{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+
+#d5{
+    order: 1;
+}
+
+#d16{
+    order: -1;
+}
+
+#d4{
+    flex-grow: 3;
+}
+
+#d8{
+    flex-basis: 100px;
+}
+
+#d12{
+    align-self: flex-start;
+}
+
+#d14{
+    align-self: flex-end;
+}
